@@ -1,0 +1,1 @@
+// document.getElementById("demo").innerHTML=("this is updated content from external file");

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #ab8f97;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: royalblue;
+    background-image: url(https://images.unsplash.com/photo-1582015752624-e8b1c75e3711?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #d1a00034;
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: lime; */
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: #b30808; */
+    /* color: lime; */
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+    
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family: gilroy;
+    font-weight: 900;
+    letter-spacing: 6px;
+    line-height: 78px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: rebeccapurple; */
+    background-image: url(https://media.istockphoto.com/id/637740350/photo/trendy-man-trying-on-sunglasses.jpg?s=612x612&w=0&k=20&c=6H2nD4yC5WNo_MCAsiZwD3rgZimKKWAR-MvbyKiNJH8=);
+    background-size: cover;
+    /* background-position: center; */
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -56%;
+    top: -7%;
+    transform-origin: 0%  0%;
+    /* width: 100%; */
+    /* background-color: red;  */
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    /* transform-origin: 0% 0%; */
+    font-family: gilroy;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+#nav{
+    position: absolute;
+    width: 450px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    left: 2%;
+    top: 5%;
+    justify-content: space-between;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: gilroy;
+}
