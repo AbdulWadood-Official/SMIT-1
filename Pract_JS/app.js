@@ -14,6 +14,7 @@ console.log(text_uppercase.toUpperCase());
 //    Convert a string to lowercase.
 let text_lowercase = "Conversion To Lower";
 console.log(text_lowercase.toLowerCase());
+// I have to be consistent In sha Allah!
 
 
 // 4. *Count Specific Character*:
