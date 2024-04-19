@@ -1,3 +1,4 @@
+# Probelm of Timing Function
 import time
 
 def timer(func):
