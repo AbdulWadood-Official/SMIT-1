@@ -1,4 +1,5 @@
 
+# Debugging Function Calls
 def debug(func):
     def wrapper(*args, **kwargs):
         args_value = ', '.join(str(arg) for arg in args)
