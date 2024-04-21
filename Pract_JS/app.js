@@ -72,4 +72,9 @@ for (let i=0;i<string.length; i++){
 document.write("Vowels:", count,","," Consonant:", (string.length-count));
 document.write("<br>String is: ","("+string+")");
 
+// 9. *Substring Extraction with Index*:
+//     Extract a substring from a given string starting from a specified index up to the end of the string.
+
+
+
 
