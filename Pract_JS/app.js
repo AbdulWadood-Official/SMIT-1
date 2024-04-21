@@ -59,21 +59,63 @@
 
 // 8. *Count Vowels and Consonants*:
 //     Count the number of vowels and consonants in a given string.
-let string = prompt("Enter the string!");
-let count = 0;
+// let string = prompt("Enter the string!");
+// let count = 0;
+// for (let i=0;i<string.length; i++){
+//     let letter=string[i].toLowerCase();
+//     if (letter=="a" || letter=="e" ||letter=="i"||letter=="o"||letter=="u"){
+//         count++;
+//         }
+//     }
 
-for (let i=0;i<string.length; i++){
-    let letter=string[i].toLowerCase();
-    if (letter=="a" || letter=="e" ||letter=="i"||letter=="o"||letter=="u"){
-        count++;
-        }
-    }
-
-document.write("Vowels:", count,","," Consonant:", (string.length-count));
-document.write("<br>String is: ","("+string+")");
+// document.write("Vowels:", count,","," Consonant:", (string.length-count));
+// document.write("<br>String is: ","("+string+")");
 
 // 9. *Substring Extraction with Index*:
 //     Extract a substring from a given string starting from a specified index up to the end of the string.
+// var extract_str = "Javascript is versatile and popular language"
+// console.log(extract_str);
+// console.log(extract_str.substring(10));
+// console.log(extract_str.substring(0,11));
+
+
+
+// 10. *Remove Duplicates*:
+//     Remove duplicate characters from a string.
+// let str = prompt("Enter the string to remove duplicate chr")
+// console.log(str);
+// let set = new Set();
+// let words = str.toLowerCase().split(" ")
+// words.forEach(ele => {
+//     set.add(ele)
+// })
+// console.log(set);
+
+// *****************Another Approach ***********************
+// let str = prompt("Enter the string to remove duplicate characters");
+// console.log(str);
+// Initialize an empty Set to store unique characters
+// let uniqueChars = new Set();
+
+// Iterate over each character in the string
+// for (let char of str) {
+    // Add each character to the Set
+    // uniqueChars.add(char.toLowerCase());
+// }
+
+// Convert Set back to a string (removes duplicates)
+// let result = Array.from(uniqueChars).join("");
+
+// console.log("String without duplicate characters:", result);
+
+
+// 11. *Word Count in String*:
+//     Count the number of words in a given string.
+
+
+
+
+
 
 
 
