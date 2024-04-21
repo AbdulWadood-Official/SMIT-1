@@ -54,8 +54,22 @@
 
 // Q7. *Trim Whitespace*:
 //     Remove leading and trailing whitespaces from a string.
-let remove_space = " Welcome to Javascript Programming "
-console.log(remove_space.trim());
+// let remove_space = " Welcome to Javascript Programming "
+// console.log(remove_space.trim());
 
 // 8. *Count Vowels and Consonants*:
 //     Count the number of vowels and consonants in a given string.
+let string = prompt("Enter the string!");
+let count = 0;
+
+for (let i=0;i<string.length; i++){
+    let letter=string[i].toLowerCase();
+    if (letter=="a" || letter=="e" ||letter=="i"||letter=="o"||letter=="u"){
+        count++;
+        }
+    }
+
+document.write("Vowels:", count,","," Consonant:", (string.length-count));
+document.write("<br>String is: ","("+string+")");
+
+
