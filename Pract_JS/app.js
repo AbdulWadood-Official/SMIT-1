@@ -112,8 +112,69 @@
 // 11. *Word Count in String*:
 //     Count the number of words in a given string.
 
+// const str = "Hey, Wlecome to world of    programming!"
+// console.log(str);
+// 1st Method;
+// const words = str.split(' ')
+// console.log(words.length);
+
+// 2nd Method:
+// const mywords = str.trim().split(new RegExp("\\s+"))
+// console.log(mywords.length);
 
 
+
+// 12. *Remove All Instances*:
+//     Remove all occurrences of a specified substring from a string.
+// Step 1: Prompt the user for the original string
+// let originalString = prompt("Enter the original string:");
+
+// // Step 2: Prompt the user for the substring to remove
+// let substringToRemove = prompt("Enter the substring to remove:");
+
+// // Step 3: Initialize an empty string to store the result
+// let resultString = "";
+
+// // Step 4: Loop through each character of the original string
+// for (let i = 0; i < originalString.length; i++) {
+//     // Step 4a: Get the current part of the string to check if it matches the substring to remove
+//     let partToCheck = originalString.substring(i, i + substringToRemove.length);
+
+//     // Step 4b: Check if the current part matches the substring to remove
+//     if (partToCheck === substringToRemove) {
+//         // If it matches, skip over this part and continue to the next part
+//         i += substringToRemove.length - 1;
+//     } else {
+//         // If it doesn't match, add this character to the result string
+//         resultString += originalString[i];
+//     }
+// }
+
+// // Step 5: Print the original string and the result string
+// console.log("Original string:", originalString);
+// console.log("String after removing all occurrences of '", substringToRemove, "':", resultString);
+
+
+// 13. *Extract Numbers*:
+//     Extract all numbers from a given alphanumeric string.
+
+// let str = prompt("Enter the string with numbers: ");
+// console.log(`Original string: ${str}`);
+// str = str.replace(/\d/g,'')
+// console.log(`Replaced string: ${str}`);
+
+
+// 14. *Title Case Conversion*:
+//     Convert a given string to title case (capitalize the first letter of each word).
+
+let str = prompt("Enter the string!")
+console.log(str);
+var first = str.charAt(0);
+console.log(first);
+var remaining = str.slice(1);
+console.log(remaining);
+var capi = first.toUpperCase() + remaining;
+console.log(capi);
 
 
 
