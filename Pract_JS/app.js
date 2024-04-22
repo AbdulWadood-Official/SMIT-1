@@ -167,16 +167,33 @@
 // 14. *Title Case Conversion*:
 //     Convert a given string to title case (capitalize the first letter of each word).
 
-let str = prompt("Enter the string!")
-console.log(str);
-var first = str.charAt(0);
-console.log(first);
-var remaining = str.slice(1);
-console.log(remaining);
-var capi = first.toUpperCase() + remaining;
-console.log(capi);
+// Prompt the user to enter a string
+// let str = prompt("Enter the string:");
+// console.log("Original string:", str);
+
+// Convert the first character to uppercase
+// let titleCaseStr = str[0].toUpperCase();
+
+// Iterate through the string starting from the second character
+// let i = 1;
+// while (i < str.length) {
+    // If the previous character is a space, convert the current character to uppercase
+    // if (str[i - 1] === " ") {
+    //     titleCaseStr += str[i].toUpperCase();
+    // } else {
+        // Otherwise, keep the current character as is
+//         titleCaseStr += str[i];
+//    }
+     // Move to the next character
+//     i++;
+// }
+
+// console.log("String in title case:", titleCaseStr);
 
 
+
+// 15. *Unique Characters*:
+//     Check if a string has all unique characters.
 
 
 
