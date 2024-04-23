@@ -50,6 +50,11 @@ def main():
         elif choice == '4':
             video_id = input("Enter video ID to Delete: ")
             delete_video(video_id)
+        
+        elif choice == '5':
+            break
+        else:
+            print("Invalid choice")
 
 
 
