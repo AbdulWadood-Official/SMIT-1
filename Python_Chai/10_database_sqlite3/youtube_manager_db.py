@@ -13,16 +13,22 @@ cursor.execute("""
 """)
 
 def list_videos():
-    pass
+    cursor.execute("SELECT * FROM videos")
+    for row in cursor.fetchall():
+        print(row)
 
-def add_video():
-    pass
+def add_video(name, time):
+    cursor.execute("INSERT INTO videos (name,time) VALUES (?, ?)", (name,time))
+    conn.commit()
 
-def update_video():
-    pass
+def update_video(video_id, new_name, new_time):
+    cursor.execute("UPDATE videos SET name = ?, time = ? WHERE id = ?",(new_name, new_time, video_id))
+    conn.commit()
 
-def delete_video():
-    pass
+
+def delete_video(video_id):
+    cursor.execute("DELETE FROM videos WHERE id = ?", (video_id,))
+    conn.commit()
 
 def main():
     while True:
@@ -31,7 +37,7 @@ def main():
         print("2. Add videos")
         print("3. Update videos")
         print("4. Delete videos")
-        print("4. Exit App")
+        print("5. Exit App")
         choice = input("Enter your choice: ")
 
         if choice == '1':
@@ -45,10 +51,10 @@ def main():
             video_id = input("Enter video ID to Update: ")
             name = input("Enter the video name: ")
             time = input("Enter the video time: ")
-            delete_video(video_id,name, time)
+            update_video(video_id,name, time)
 
         elif choice == '4':
-            video_id = input("Enter video ID to Delete: ")
+            video_id = input("Enter video ID to delete: ")
             delete_video(video_id)
         
         elif choice == '5':
@@ -56,6 +62,7 @@ def main():
         else:
             print("Invalid choice")
 
+    conn.close()
 
 
 
