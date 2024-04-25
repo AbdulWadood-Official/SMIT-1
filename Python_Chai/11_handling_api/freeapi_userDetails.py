@@ -1,5 +1,5 @@
 import requests
-
+# 
 def fetch_random_userapi():
     url = "https://api.freeapi.app/api/v1/public/randomusers/user/random"
     response = requests.get(url)
@@ -12,7 +12,7 @@ def fetch_random_userapi():
         return username, usercountry
     else:
         raise Exception ("Failed to fetch user data")
-
+# Testing my projects
 def main():
     try:
         username, country = fetch_random_userapi()
