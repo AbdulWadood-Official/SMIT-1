@@ -12,7 +12,7 @@ def fetch_random_userapi():
         return username, usercountry
     else:
         raise Exception ("Failed to fetch user data")
-# Adding function in it and using main try catch condition;
+# Adding function in it and using main try catch 
 def main():
     try:
         username, country = fetch_random_userapi()
