@@ -196,31 +196,37 @@
 //     Check if a string has all unique characters.
 
 // Define a function to check if a string has all unique characters
-function hasUniqueCharacters(str) {
-    // Loop through each character in the string
-    for (let i = 0; i < str.length; i++) {
-        // Check if the current character repeats anywhere else in the string
-        for (let j = i + 1; j < str.length; j++) {
-            if (str[i] === str[j]) {
-                // If the character repeats, return false
-                return false;
-            }
-        }
-    }
-    // If no repeating characters are found, return true
-    return true;
-}
+// function hasUniqueCharacters(str) {
+//     // Loop through each character in the string
+//     for (let i = 0; i < str.length; i++) {
+//         // Check if the current character repeats anywhere else in the string
+//         for (let j = i + 1; j < str.length; j++) {
+//             if (str[i] === str[j]) {
+//                 // If the character repeats, return false
+//                 return false;
+//             }
+//         }
+//     }
+//     // If no repeating characters are found, return true
+//     return true;
+// }
 
-// Prompt the user to enter a string
-let inputString = prompt("Enter a string:");
-console.log(inputString);
+// // Prompt the user to enter a string
+// let inputString = prompt("Enter a string:");
+// console.log(inputString);
 
-// Call the function and store the result
-let isUnique = hasUniqueCharacters(inputString);
+// // Call the function and store the result
+// let isUnique = hasUniqueCharacters(inputString);
 
-// Print the result
-if (isUnique) {
-    console.log("The string has all unique characters.");
-} else {
-    console.log("The string does not have all unique characters.");
-}
+// // Print the result
+// if (isUnique) {
+//     console.log("The string has all unique characters.");
+// } else {
+//     console.log("The string does not have all unique characters.");
+// }
+
+
+
+
+
+
