@@ -217,7 +217,7 @@
 
 // // Call the function and store the result
 // let isUnique = hasUniqueCharacters(inputString);
-// Insha Allah
+// 
 // // Print the result
 // if (isUnique) {
 //     console.log("The string has all unique characters.");
