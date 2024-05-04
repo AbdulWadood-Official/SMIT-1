@@ -72,7 +72,7 @@
     content: 'HOURS';
 }
 #min::after{
-    content: 'HOURS';
+    content: 'MINS';
 }#sec::after{
-    content: 'HOURS';
+    content: 'SEC';
 }
