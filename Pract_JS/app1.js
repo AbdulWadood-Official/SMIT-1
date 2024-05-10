@@ -29,6 +29,7 @@ if(userConsent){
         alert("Okay, May be some other time.")
     }
 }
+// work hard for my family
 else{
     alert("ok! Maybe some other time.")
 }
