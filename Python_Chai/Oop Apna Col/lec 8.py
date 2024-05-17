@@ -58,5 +58,5 @@ car1 = Car()
 car1.start()
 
 # Encapsulation:
-# wrapping data and function into a single unit(object) 
+# wrapping data and function into a single unit(object) Ya Allah raham farma mujh par
 
