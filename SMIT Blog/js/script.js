@@ -153,12 +153,28 @@ window.update_data = function (key) {
     }
 
 
-
-
-
-
     update_btn.addEventListener('click', Update_Form)
 
 
 }
 // 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
