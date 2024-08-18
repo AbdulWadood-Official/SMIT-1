@@ -8,3 +8,6 @@ let items = input.split(',').map(item => item.trim());
 let uniqueItems = removeDuplicates(items);
 document.getElementById('result').textContent = uniqueItems.join(', ');
 });
+
+
+// I can do it
