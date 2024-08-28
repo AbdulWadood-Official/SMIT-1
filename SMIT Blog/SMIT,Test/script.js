@@ -10,4 +10,4 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-// Ya Allah Help me
+// You can do it
