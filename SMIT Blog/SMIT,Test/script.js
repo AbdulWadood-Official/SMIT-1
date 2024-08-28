@@ -10,4 +10,4 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-// You can do it
+// 
