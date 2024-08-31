@@ -10,4 +10,4 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-//  Allah help me
+// please Allah help me
