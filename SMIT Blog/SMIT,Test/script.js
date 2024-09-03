@@ -10,4 +10,4 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-// 
+// Bismillah hir rahman nir raheem
