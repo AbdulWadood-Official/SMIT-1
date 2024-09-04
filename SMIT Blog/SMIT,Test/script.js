@@ -10,4 +10,4 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-// Ya Allah mujhy himmat dein phir se koshish krne ki
+// Ya Allah mujhy himmat dein phir 
