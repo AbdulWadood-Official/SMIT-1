@@ -10,5 +10,5 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-//  I ove 
+//  
 
