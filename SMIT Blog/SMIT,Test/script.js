@@ -10,5 +10,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-//  
+//  work hard
+
 
