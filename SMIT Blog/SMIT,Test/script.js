@@ -10,6 +10,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-//  
+//  Ya Allah madad farma meri please
 
 
