@@ -10,6 +10,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-//  Ya 
+//  you can do it
 
 
