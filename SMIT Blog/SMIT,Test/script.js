@@ -10,6 +10,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-//  I love you bro 
+//  I love 
 
 
