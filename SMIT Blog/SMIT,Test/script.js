@@ -10,6 +10,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-//  Do it bro,you would win it
+//  Do it bro,
 
 
