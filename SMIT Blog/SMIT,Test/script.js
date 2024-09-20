@@ -10,6 +10,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-//  NGU(never give up)
+//  NGU
 
 
