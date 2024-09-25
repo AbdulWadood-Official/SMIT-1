@@ -11,6 +11,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-//  you are doing amazing job bro
+//  you are doing 
 
 
