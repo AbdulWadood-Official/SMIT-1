@@ -10,6 +10,8 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 });
 
 
-//  
+
+//  a = b 
+// b = 1
 
 
