@@ -11,6 +11,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-//  Ya Allah make my way, give me confidence
+//  Ya Allah make 
 
 
