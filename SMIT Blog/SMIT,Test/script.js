@@ -11,6 +11,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-//  Never give up, Ya Allah give sabar
+//  Never give up, 
 
 
