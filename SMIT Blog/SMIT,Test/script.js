@@ -11,7 +11,7 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-//  I love you Allah
+//  I love 
 
 
 
