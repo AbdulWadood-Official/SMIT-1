@@ -11,7 +11,7 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-//  Please Allah ,raham on me
+//  Please Allah 
 
 
 
