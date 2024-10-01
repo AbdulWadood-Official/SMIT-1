@@ -11,7 +11,7 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-//   Never give up
+//   Never 
 
 
 
