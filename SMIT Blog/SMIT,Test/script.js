@@ -11,6 +11,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-//   Ya Allah mercy on me, please
+//   Ya Allah mercy on 
 
 
