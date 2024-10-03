@@ -11,6 +11,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-//   Allah se hota hai
+//   Allah se 
 
 
