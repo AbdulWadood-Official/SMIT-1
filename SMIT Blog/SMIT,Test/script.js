@@ -11,6 +11,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-// 
+// Irfan Malik is coming to Karachi
 
 
