@@ -11,6 +11,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-// Ya Allah mere liye raste asaan farma
+// Ya Allah 
 
 
