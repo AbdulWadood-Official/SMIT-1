@@ -11,6 +11,6 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-// Allah mere sath asani farma,mere mola
+// Allah mere sath asani farma
 
 
