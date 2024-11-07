@@ -11,5 +11,5 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-// Ya Allah 
+// Give me power
 
