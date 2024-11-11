@@ -11,5 +11,5 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-// Allah make my ease for me
+// Allah make my ease 
 
