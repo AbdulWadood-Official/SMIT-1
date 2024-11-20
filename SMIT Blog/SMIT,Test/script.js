@@ -11,5 +11,5 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-// Allah madad farma, himmat dein mujhy
+// Allah madad farma, 
 
