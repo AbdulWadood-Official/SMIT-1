@@ -11,5 +11,5 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-// 
+// Allah himmat dey mujhy, meri preparation complete karwa dey aaj 
 
