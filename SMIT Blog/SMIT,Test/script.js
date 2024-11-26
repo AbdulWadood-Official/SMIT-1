@@ -11,5 +11,5 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-// Thanks Allah Pak, For all this
+// Thanks Allah Pak, 
 
