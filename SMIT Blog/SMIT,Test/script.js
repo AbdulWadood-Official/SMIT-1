@@ -11,5 +11,5 @@ document.getElementById('result').textContent = uniqueItems.join(', ');
 
 
 
-// Allah meri madad farma,Ameen
+// Allah meri 
 
